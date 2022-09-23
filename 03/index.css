@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+.wrapper{
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+}
+
+.containerforgreen{
+  position: absolute;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.green{
+  position: relative;
+  background-color: lightgreen;
+  height: 150px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blackingreen{
+  background-color: black;
+  height: 40px;
+  width: 40px;
+}
+
+.blue{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  background-color: blue;
+  right: 0px;
+  bottom: 0px;
+}
+
+#first.black{
+  position: relative;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+}
+
+#second.black{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background-color: black;
+  bottom: 0px;
+  left: -10px;
+}
