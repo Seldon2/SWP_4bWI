@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+.lightbluebox{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 400px;
+  background-color: lightblue;
+  z-index: 1;
+}
+
+.darkbluebox{
+  position: absolute;
+  background-color: darkblue;
+  height: 80px;
+  width: 80px;
+}
+
+.purplebox{
+  position: absolute;
+  background-color: purple;
+  height: 80px;
+  width: 80px;
+  right: -40px;
+  bottom: -40px;
+}
+
+.containerforgreen{
+  position: absolute;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100vw;
+  height: 50vh;
+}
+
+.greenbox{
+  position: relative;
+  background-color: lightgreen;
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+}
+
+.orangebox{
+  position: absolute;
+  background-color: orange;
+  height: 40px;
+  width: 40px;
+  bottom: 0px;
+}
