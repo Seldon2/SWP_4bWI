@@ -2,35 +2,108 @@ body{
   margin: 0;
   padding: 0;
   background-color: lightgray;
+  font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+  font-feature-settings: "liga", "kern";
+  letter-spacing: 1px;
 }
 
 .wrapper{
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
-  width: 75vw;
-  height: 100vh;
+  width: 70vw;
+  height: 100%;
   margin-left: 5vw;
   background-color: white;
 }
 
+
 .header{
-  position: absolute;
   top: 0px;
   width: 100%;
-  height: 3.5vh;
-  background-color: darkred;
+  height: 30%;
+  background-color: #a00c0c;
+}
+
+.topiccontainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.topics{
+  display: flex;
+  width: 75%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.topic{
+  font-size: 0.9rem;
+  color: white;
+}
+
+.info{
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .caption{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   width: 100%;
-  height: 14vh;
-  background-color: red;
+  height: 80%;
+  background-color: #c0141c;
+}
+
+.captiontext{
+  padding-left: 3vw;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: white;
+}
+
+.logo{
+  width: 10%;
 }
 
 .navigation{
   width: 100%;
-  height: 3.5vh;
-  background-color: darkred;
+  height: 30%;
+  background-color: #800404;
+}
+
+select{
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.menuscontainer{
+  display: flex;
+  width: 85%;
+  height: 5vh;
+  color: white;
+  font-size: 1rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.dropmenu{
+  position: relative;
+  left: -20px;
 }
 
 .imgcontainer{
@@ -39,13 +112,32 @@ body{
 
 .content{
   position: relative;
-  top: -10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px;
+  top: -10vh;
   width: 80%;
-  height: 100vh;
+  height: 100%;
   background-color: white;
-  border: 1px solid black;
+  box-shadow: 0 0 2px lightgray;
 }
 
 img{
   width: 100%;
+}
+
+.contenttopictext{
+  color: gray;
+}
+
+.contentheadertext{
+  margin-top: 0px;
+  font-size: 2rem;
+}
+
+p{
+  margin-top: 0px;
+  color: black;
+  font-weight: bolder;
+  font-size: 1.1rem;
 }
