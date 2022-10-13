@@ -67,7 +67,7 @@ for(var row = 0; row <= rows; row++){
   }
 }
 
-
+/* version with WE day*/ 
 startday = "MI";
 day = 0;
 switch(startday){
